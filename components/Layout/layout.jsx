@@ -2,7 +2,7 @@ import Navbar from "../Navbar/Navbar";
 
 function Layout({ children }) {
   return (
-    <div className="container mx-auto">
+    <div className="mx-auto">
       <Navbar />
       {children}
     </div>
