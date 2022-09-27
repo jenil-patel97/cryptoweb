@@ -1,4 +1,3 @@
-
 import CoinList from "../CoinList";
 
 const Currency = () => {
@@ -7,10 +6,14 @@ const Currency = () => {
       <div className="container mx-auto rounded-3xl bg-white py-8 px-4 shadow">
         <div className="grid grid-cols-3">
           <div className="px-4">
-            <CoinList title='🔥 Trending'/>
+            <CoinList title="🔥 Trending" />
           </div>
-          <div className="px-4">ok</div>
-          <div className="px-4">ok</div>
+          <div className="px-4">
+            <CoinList title="🚀  Top Gainers" />
+          </div>
+          <div className="px-4">
+            <CoinList title="💎  Recently Added" />
+          </div>
         </div>
       </div>
     </section>
