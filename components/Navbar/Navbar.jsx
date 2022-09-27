@@ -16,14 +16,13 @@ const Navbar = () => {
             alt="logo"
           />
           <div className="flex">
-            <a className="mx-6 hover:text-primary cursor-pointer">
+            <a className="mx-14 hover:text-primary cursor-pointer">
               Crytocurrency
             </a>
-            <a className="mx-6 hover:text-primary cursor-pointer">Exchanges</a>
-            <a className="mx-6 hover:text-primary cursor-pointer">Watchlist</a>
-            <a className="mx-6 hover:text-primary cursor-pointer">NFT</a>
-            <a className="mx-6 hover:text-primary cursor-pointer">Portfolio</a>
-            <a className="mx-6 hover:text-primary cursor-pointer">Products</a>
+            <a className="mx-8 hover:text-primary cursor-pointer">Exchanges</a>
+            <a className="mx-8 hover:text-primary cursor-pointer">Watchlist</a>
+            <a className="mx-8 hover:text-primary cursor-pointer">NFT</a>
+            <a className="mx-8 hover:text-primary cursor-pointer">Products</a>
           </div>
         </div>
         <div className="flex ml-[55px]">
