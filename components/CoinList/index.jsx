@@ -1,5 +1,5 @@
 import emoji from "react-easy-emoji";
-import {ChevronRightIcon } from "@heroicons/react/24/solid";
+import { ChevronRightIcon } from "@heroicons/react/24/solid";
 
 import CoinRow from "./CoinRow";
 
@@ -23,10 +23,17 @@ const CoinList = ({ title, more, data }) => {
           <span className="text-gray">Price</span>
           <span className="text-gray">Chart</span>
         </div>
-        {data?.map(({ image, name, price, upTrend }) =>
-         // eslint-disable-next-line react/jsx-key
-         <CoinRow image={image} coinName={name} coinPrice={price} coinUpTrend={upTrend} />
-         ) }
+        {data?.map(({ image, name, price, upTrend }) => {
+          return (
+            <CoinRow
+              key=""
+              image={image}
+              coinName={name}
+              coinPrice={price}
+              coinUpTrend={upTrend}
+            />
+          );
+        })}
       </div>
     </>
   );
