@@ -96,7 +96,7 @@ const recentCoins = [
 const Currency = () => {
   return (
     <section className="-mt-10">
-      <div className="container mx-auto rounded-3xl bg-white py-8 px-4 shadow">
+      <div className="container mx-auto rounded-3xl bg-white py-8 px-4 shadow-lg">
         <div className="grid grid-cols-3">
           <div className="px-4">
             <CoinList title="🔥 Trending" data={trendingCoins} />

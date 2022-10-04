@@ -2,6 +2,7 @@ import Head from "next/head";
 import Layout from "../components/Layout/layout";
 import Currency from "../components/sections/Currency";
 import Hero from "../components/sections/Hero";
+import Trade from "../components/sections/Trade";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Layout>
         <Hero />
         <Currency />
+        <Trade />
       </Layout>
     </div>
   );

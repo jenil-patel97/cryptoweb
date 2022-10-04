@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const CoinRow = ({ image, coinName, coinPrice, coinUpTrend }) => {
   return (
-    <div className="grid grid-cols-3 mb-2 py-2 border-b border-lightgray">
+    <div className="grid grid-cols-3 mb-2 py-2 border-b border-lightgray last:border-none">
       <div className="flex items-center -ml-[2px]">
         <Image alt="bit" src={image} width={22} draggable="false" height={22} />
         <div className="ml-2">{coinName}</div>
