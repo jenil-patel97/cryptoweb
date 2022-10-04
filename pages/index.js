@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Layout from "../components/Layout/layout";
+import CreditCard from "../components/sections/CreditCard";
 import Currency from "../components/sections/Currency";
 import Hero from "../components/sections/Hero";
 import Partners from "../components/sections/Partners";
@@ -19,6 +20,7 @@ export default function Home() {
         <Currency />
         <Trade />
         <Partners />
+        <CreditCard />
       </Layout>
     </div>
   );

@@ -13,7 +13,7 @@ const Hero = () => {
             <h1 className="text text-5xl font-bold leading-normal">
               The World’s
             </h1>
-            <h1 className="text text-5xl font-bold leading-normal">
+            <h1 className="text text-5xl font-bold leading-normal text-blue-gradient">
               Fastest Growing
             </h1>
             <h1 className="text text-5xl font-bold leading-normal">
