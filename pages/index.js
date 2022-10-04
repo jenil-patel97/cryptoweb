@@ -2,6 +2,7 @@ import Head from "next/head";
 import Layout from "../components/Layout/layout";
 import Currency from "../components/sections/Currency";
 import Hero from "../components/sections/Hero";
+import Partners from "../components/sections/Partners";
 import Trade from "../components/sections/Trade";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <Hero />
         <Currency />
         <Trade />
+        <Partners />
       </Layout>
     </div>
   );
