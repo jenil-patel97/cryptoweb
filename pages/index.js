@@ -8,6 +8,7 @@ import Trade from "../components/sections/Trade";
 import TradingTool from "../components/sections/TradingTool";
 import Security from "../components/sections/Security";
 import Step from "../components/sections/Step";
+import FAQ from "../components/sections/FAQ";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <TradingTool />
         <Security />
         <Step />
+        <FAQ />
       </Layout>
     </div>
   );
