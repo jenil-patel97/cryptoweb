@@ -9,6 +9,7 @@ import TradingTool from "../components/sections/TradingTool";
 import Security from "../components/sections/Security";
 import Step from "../components/sections/Step";
 import FAQ from "../components/sections/FAQ";
+import Top from "../components/sections/Top";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         <Security />
         <Step />
         <FAQ />
+        <Top />
       </Layout>
     </div>
   );
