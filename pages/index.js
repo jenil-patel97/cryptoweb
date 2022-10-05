@@ -10,6 +10,7 @@ import Security from "../components/sections/Security";
 import Step from "../components/sections/Step";
 import FAQ from "../components/sections/FAQ";
 import Top from "../components/sections/Top";
+import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
         <Step />
         <FAQ />
         <Top />
+        <Footer />
       </Layout>
     </div>
   );
