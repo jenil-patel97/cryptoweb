@@ -6,7 +6,8 @@ import Hero from "../components/sections/Hero";
 import Partners from "../components/sections/Partners";
 import Trade from "../components/sections/Trade";
 import TradingTool from "../components/sections/TradingTool";
-import Security from '../components/sections/Security'
+import Security from "../components/sections/Security";
+import Step from "../components/sections/Step";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <CreditCard />
         <TradingTool />
         <Security />
+        <Step />
       </Layout>
     </div>
   );
