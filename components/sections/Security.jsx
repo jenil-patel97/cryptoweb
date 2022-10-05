@@ -43,7 +43,7 @@ const SecuritySectiom = () => {
                 SOC Certifications
               </span>
               <p className="text-gray mt-3">
-                NEFA is SOC 1 Type 2 and SOC 2 Type 2 compliant. We are the
+                NEFA is <span className="underline cursor-pointer">SOC 1 Type 2</span>  and <span className="underline cursor-pointer">SOC 2 Type 2</span>  compliant. We are the
                 world’s first cryptocurrency exchange and custodian to complete
                 these exams.
               </p>
